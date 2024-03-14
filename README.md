@@ -4,6 +4,10 @@
 # TestPkg
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/Asa12138/TestPkg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Asa12138/TestPkg/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/Asa12138/TestPkg/branch/main/graph/badge.svg)](https://app.codecov.io/gh/Asa12138/TestPkg?branch=main)
 <!-- badges: end -->
 
 The goal of TestPkg is to …

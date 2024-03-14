@@ -18,6 +18,5 @@ Sum of two number.
 Returns the sum of two numbers
 }
 \examples{
-library(rPackageTutorial)
 add(1, 2)
 }
