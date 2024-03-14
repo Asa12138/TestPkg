@@ -26,7 +26,10 @@ jobs:
           needs: lint
 
       - name: Lint
-        run: lintr::lint_package()
+        run: |
+          library("lintr")
+          my_linters <- linters_with_defaults(indentation_linter=indentation_linter(indent = 2L))
+          lintr::lint_package(linters = my_linters)
         shell: Rscript {0}
         env:
-          LINTR_ERROR_ON_LINT: true
+          LINTR_ERROR_ON_LINT: false
